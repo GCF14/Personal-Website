@@ -1,0 +1,167 @@
+html, body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Ensure the body takes up the full height */
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #1F2937;
+    align-items: center; 
+    padding: 20px 100px; 
+    position: fixed; 
+    top: 0; 
+    width: 92%; 
+    z-index: 1000; 
+    
+}
+
+.icon-container {
+    display: flex; 
+    gap: 10px; 
+    margin-left: auto;
+}
+
+.main {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.main-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 10px 0;
+    line-height: 1.2; 
+}
+
+.main-text .main-p p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px 0; 
+    line-height: 1.5; 
+}
+
+.main-image img{
+    width: 500px;
+    height: 350px;
+    margin-left: 100px;
+}
+
+.icon {
+    color: white; 
+    font-size: 48px; 
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    animation: tada 1s; 
+}
+
+
+.content {
+    align-items: center;
+    text-align: center; 
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E5E7EB;
+    
+}
+
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter; 
+    padding: 0 200px;
+    font-family: 'Roboto';
+}
+
+.quote b{
+    font-size: 20px;
+    color: #1F2937;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto';
+    text-align: right;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+    padding:36px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #f9faf8;
+    flex-flow: row wrap;
+}
+
+.resume-text {
+    text-align: left;
+}
+
+.resume-text p {
+    color: #fff;
+    margin: 0; 
+}
+
+h3 {
+    color: #fff;
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0 0 8px 0
+}
+
+.resume-button {
+    border: 2px solid #f9faf8;
+}
+
+.resume-button button {
+    color: #fff;
+    font-family: 'Roboto';
+    border-color: #fff;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 5px 30px;
+    font-size: 15px;
+}
+
+
+.footer {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 24px 0px;
+}
+
