@@ -1,5 +1,5 @@
 These are the links where I got my icons from in figma and other designs
-
+Link to site: https://gcf14.github.io/Personal-Website/
 Social media icons are from boxicon: https://boxicons.com/
 Github link for documentation of boxicon: https://github.com/atisawd/boxicons
 Link to schedule icon: https://www.figma.com/community/file/1243556916481113176/student-schedule-management-community
